@@ -1,0 +1,9 @@
+Project 2 in course Computer Communications and Networks, 2014/2015
+Author: Lukas Rendvansky (xrendv00@stud.fit.vutbr.cz)
+Description: Client side implementation. This program test parameters of end to end connection.
+Usage: ./server [-p | --port PORT] [-s | --size SIZE] [-r | --rate RATE] [-i | --interval INTERVAL] [-t | --timeout TIMEOUT]\n\
+  PORT - Port number on which server will run, in range of 1025 to 65535. Implicit value is 5656.
+  SIZE - Size of packet payload. Minimum value 10, implicit 100.
+  RATE - Number of packets sent per second. Minimum value 1, implicit value 10.
+  INTERVAL - Time in seconds in which values are measured. Minimum 1, implicit 100/rate.
+  TIMEOUT - Time in seconds after client automatically closes. If not set, runs infinitely.
